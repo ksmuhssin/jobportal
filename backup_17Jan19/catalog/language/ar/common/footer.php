@@ -1,0 +1,30 @@
+<?php
+// Text
+$_['text_information']  = 'معلومات';
+$_['text_service']      = 'خدمة العملاء';
+$_['text_extra']        = 'إضافات';
+$_['text_contact']      = 'اتصل بنا';
+$_['text_return']       = 'عائدات';
+$_['text_sitemap']      = 'خريطة الموقع';
+$_['text_manufacturer'] = 'العلامات التجارية';
+$_['text_voucher']      = 'شهادات الهدية';
+$_['text_affiliate']    = 'التابعون';
+$_['text_special']      = 'العروض الخاصة';
+$_['text_account']      = 'حسابي';
+$_['text_order']        = 'تاريخ الطلب';
+$_['text_wishlist']     = 'الأماني';
+$_['text_newsletter']   = 'النشرة الإخبارية';
+$_['text_subscribe']    = 'اشترك في النشرة الإخبارية';
+$_['text_emailenter']   = 'أدخل عنوان بريدك الالكتروني';
+$_['text_stayconnect']     = 'ابق على تواصل معنا للاطلاع على آخر الأخبار والتحديثات';
+$_['text_followus']     = 'اتبعنا';
+$_['button_subscribe']  = 'الاشتراك';
+$_['text_needhelp']     = 'تحتاج مساعدة ?';
+$_['text_callus']       = 'اتصل بنا :';
+$_['text_useful']       = 'روابط مفيدة';
+$_['text_submitjob']    = 'يقدم الوظيفة';
+$_['text_allcan']       = 'جميع المرشحين';
+$_['text_latestblog']   = 'أحدث المدونات';
+$_['text_jobs']         = 'وظائف';
+$_['text_success']         = 'بنجاح: أرسل بريدك';
+$_['text_powered']      = 'مشغل بواسطة <a href="http://themultimediadesigner.com/">TMD</a>%s &نسخ; %s';

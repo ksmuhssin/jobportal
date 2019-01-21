@@ -1,0 +1,35 @@
+<?php
+// Text
+$_['text_new_subject']          = '%s - طلب %s';
+$_['text_new_greeting']         = 'نشكرك على اهتمامك بمنتجات٪ s. تم استلام طلبك وسوف تتم معالجته بمجرد تأكيد الدفع.';
+$_['text_new_received']         = 'لقد تلقيت طلبًا.';
+$_['text_new_link']             = 'لمشاهدة طلبك ، اضغط على الرابط أدناه:';
+$_['text_new_order_detail']     = 'تفاصيل الطلب';
+$_['text_new_instruction']      = 'تعليمات';
+$_['text_new_order_id']         = 'رقم التعريف الخاص بالطلب:';
+$_['text_new_date_added']       = 'تم إضافة التاريخ:';
+$_['text_new_order_status']     = 'حالة الطلب:';
+$_['text_new_payment_method']   = 'طريقة الدفع او السداد:';
+$_['text_new_shipping_method']  = 'طريقة الشحن:';
+$_['text_new_email']            = 'البريد الإلكتروني E-:';
+$_['text_new_telephone']        = 'هاتف:';
+$_['text_new_ip']               = 'عنوان IP:';
+$_['text_new_payment_address']  = 'عنوان الدفع';
+$_['text_new_shipping_address'] = 'عنوان الشحن';
+$_['text_new_products']         = 'منتجات';
+$_['text_new_product']          = 'المنتج';
+$_['text_new_model']            = 'نموذج';
+$_['text_new_quantity']         = 'كمية';
+$_['text_new_price']            = 'السعر';
+$_['text_new_order_total']      = 'ترتيب المجاميع';
+$_['text_new_total']            = 'مجموع';
+$_['text_new_download']         = 'بمجرد تأكيد دفعتك ، يمكنك النقر فوق الرابط أدناه للوصول إلى المنتجات القابلة للتنزيل:';
+$_['text_new_comment']          = 'التعليقات على طلبك هي:';
+$_['text_new_footer']           = 'يرجى الرد على هذه الرسالة الإلكترونية إذا كان لديك أي أسئلة.';
+$_['text_update_subject']       = '%s - تحديث الطلب %s';
+$_['text_update_order']         = 'رقم التعريف الخاص بالطلب:';
+$_['text_update_date_added']    = 'تاريخ أمرت:';
+$_['text_update_order_status']  = 'تاريخ أمرت:';
+$_['text_update_comment']       = 'التعليقات على طلبك هي:';
+$_['text_update_link']          = 'لمشاهدة طلبك ، اضغط على الرابط أدناه:';
+$_['text_update_footer']        = 'يرجى الرد على هذه الرسالة الإلكترونية إذا كانت لديك أي أسئلة.';

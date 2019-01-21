@@ -1,0 +1,33 @@
+<?php
+// Text
+$_['text_refine']       = 'خيارات البحث';
+$_['text_select']       = '--اختر الخيار--';
+$_['text_product']      = 'منتجات';
+$_['text_error']        = 'الفئة غير موجودة!';
+$_['text_empty']        = 'لا توجد منتجات في هذه الفئة.';
+$_['text_quantity']     = 'الكمية:';
+$_['text_manufacturer'] = 'علامة تجارية:';
+$_['text_model']        = 'كود المنتج:';
+$_['text_points']       = 'نقاط مكافأة:';
+$_['text_price']        = 'السعر:';
+$_['text_tax']          = 'السابق الضرائب:';
+$_['text_compare']      = 'مقارنة المنتج (٪ s)';
+$_['text_sort']         = 'ترتيب حسب:';
+$_['text_default']      = 'افتراضي';
+$_['text_name_asc']     = 'الاسم (أ - ي)';
+$_['text_name_desc']    = 'الاسم (ي - أ)';
+$_['text_price_asc']    = 'السعر (منخفض & gt؛ مرتفع)';
+$_['text_price_desc']   = 'السعر (مرتفع & gt؛ منخفض)';
+$_['text_rating_asc']   = 'التقييم (أدنى)';
+$_['text_rating_desc']  = 'التقييم (أعلى)';
+$_['text_model_asc']    = 'الموديل (A - Z)';
+$_['text_model_desc']   = 'الموديل (Z - A)';
+$_['text_limit']        = 'تبين:';
+$_['heading_title']     = 'قائمة الوظائف:';
+$_['entry_category']    = 'الفئة';
+$_['button_search']     = 'بحث:';
+$_['button_view_more']  = 'عرض المزيد';
+$_['button_apply_now']  = 'قدم الآن';
+$_['text_parttime']     = 'دوام جزئى';
+$_['text_fulltime']     = 'وقت كامل';
+$_['text_no_results']   = 'لا نتائج!';

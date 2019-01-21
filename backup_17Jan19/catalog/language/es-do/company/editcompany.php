@@ -1,0 +1,66 @@
+<?php
+// Heading
+$_['heading_title']        		= 'Editar empresa';
+// Text
+$_['text_account']         		= 'Tablero';
+$_['text_register']        		= 'Editar';
+$_['text_companypackage']  		= 'Paquete de la compañía';
+$_['text_company_detail'] 		= 'Detalles de la compañía';
+$_['text_account_already'] 		= 'Si ya tiene una cuenta con nosotros, inicie sesión en <a href="%s">página de inicio de sesión</a>.';
+$_['text_your_details']    		= 'tus detalles personales';
+$_['text_your_address']    		= 'Su dirección';
+$_['text_newsletter']      		= 'Hoja informativa';
+$_['text_your_password']   		= 'Tu contraseña';
+$_['text_agree']           		= 'he leído y estoy de acuerdo con <a href="%s" class="agree"><b>%s</b></a>';
+// Entry
+$_['entry_customer_group'] 		= 'grupo de clientes';
+$_['button_update'] 			= 'Actualizar';
+$_['entry_package']        		= 'Paquete de la compañía';
+$_['entry_full_name']      		= 'Nombre completo';
+$_['entry_lastname']       		= 'Apellido';
+$_['entry_email']          		= 'Correo electrónico';
+$_['entry_landline_phone']      = 'Teléfono fijo';
+$_['entry_cell_phone']     		= 'Teléfono móvil';
+$_['entry_companyname']      	= 'Empresa';
+$_['entry_fax']            		= 'Fax';
+$_['entry_company']        		= 'Empresa';
+$_['entry_company_image']  		= 'Logo de la compañía';
+$_['entry_address']      		= 'Dirección 1';
+$_['entry_address_2']     	 	= 'Dirección 2';
+$_['entry_pincode']       		= 'Código PIN';
+$_['entry_city']           		= 'Ciudad';
+$_['entry_country']        		= 'País';
+$_['entry_zone']           		= 'Región / Estado';
+$_['entry_newsletter']     		= 'Suscribir';
+$_['entry_company_website']     = 'Sitio web';
+$_['entry_no_employees']      	= 'Cantidad de Empleados';
+$_['entry_company_description']	= 'Descripción';
+$_['entry_password']       		= 'Contraseña';
+$_['entry_confirm']        		= 'Contraseña confirmada';
+$_['entry_officeopen']        	= 'Oficina abierta';
+$_['entry_officeclose']        	= 'Oficina Cerrar';
+$_['text_map']        		    = 'agregar mapa';
+$_['entry_jobcategory']        	= 'Categoría de Trabajo';
+// Error
+$_['error_exists']         		= 'Advertencia: la dirección de correo electrónico ya está registrada!';
+$_['error_full_name']      		= 'El nombre debe tener entre 1 y 32 caracteres!';
+$_['error_lastname']       		= 'El apellido debe tener entre 1 y 32 caracteres!';
+$_['error_landline_phone']      = 'El número del teléfono fijo debe tener entre 1 y 10 caracteres!';
+$_['error_cell_phone']       	= 'El número de celda debe tener 10 caracteres!';
+$_['error_email']          		= 'La dirección de correo electrónico no parece ser válida!';
+$_['error_telephone']      		= 'El teléfono debe tener entre 3 y 32 caracteres!';
+$_['error_no_employees']      	= 'Debes llenar este campo!';
+$_['error_company_description'] = 'La descripción debe tener entre 20 y 350 caracteres!';
+$_['error_company_website']     = 'El sitio web debe tener 9 caracteresEl sitio web debe tener 9 caracteres';
+$_['error_company_name']      	= 'El nombre de la compañía debe ser de 2 caracteres';
+$_['error_pincode']      		= 'Por favor, introduzca un código PIN válido. Debe tener entre 6 y 10 caracteres.';
+$_['error_address']      		= 'La dirección 1 debe tener entre 3 y 128 caracteres!';
+$_['error_city']           		= 'La ciudad debe tener entre 2 y 128 caracteres!';
+$_['error_postcode']       		= 'El código postal debe tener entre 2 y 10 caracteres!';
+$_['error_company_logo']   		= 'Debes subir el logo de tu empresa';
+$_['error_country']        		= 'Por favor seleccione un país!';
+$_['error_zone']           		= 'Seleccione una región / estado!';
+$_['error_custom_field']   		= '%s necesario!';
+$_['error_password']       		= 'La contraseña debe tener entre 4 y 20 caracteres!';
+$_['error_confirm']        		= 'La confirmación de la contraseña no coincide con la contraseña!';
+$_['error_agree']          		= 'Advertencia: debe aceptar el %s!';

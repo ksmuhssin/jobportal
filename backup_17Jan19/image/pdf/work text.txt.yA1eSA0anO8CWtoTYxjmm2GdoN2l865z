@@ -1,0 +1,22 @@
+registrion form 
+
+NAME - (INPUT TEXT)
+EMAIL - (INPUT TEXT)
+PHONE- (INPUT TEXT)
+GENDER - RADIO(male -  Female)
+AADHAR - (INPUT TEXT)
+INTERAST - (CHECKBOX) FOOTBALL , CRICKET , BOLLYBALL 
+Qualification - select box(Graduate , 10+2 , Basic  ) 
+About - textarea
+
+
+Login form 
+
+Profile page 
+
+
+Registration list 
+
+
+
+Logout page

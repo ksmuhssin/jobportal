@@ -1,0 +1,92 @@
+2018-10-31 21:54:18 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:18 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:18 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:18 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:18 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:18 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:18 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:47 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:47 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:47 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:47 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:47 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:47 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:47 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:52 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:52 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:52 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:52 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:52 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:52 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:54:52 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:58:08 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:58:08 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:58:08 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:58:08 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:58:08 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:58:08 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 21:58:08 - PHP Notice:  Undefined index: image in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\extension\module\category.php on line 39
+2018-10-31 23:31:19 - PHP Notice:  Undefined index: description in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\company\submitjob.php on line 329
+2018-11-01 0:38:31 - PHP Notice:  Undefined variable: json in E:\xampp\htdocs\sep2018\jobportal\admin\controller\job\job_submit_list.php on line 416
+2018-11-01 0:38:31 - PHP Warning:  Invalid argument supplied for foreach() in E:\xampp\htdocs\sep2018\jobportal\admin\controller\job\job_submit_list.php on line 416
+2018-11-01 0:38:31 - PHP Warning:  array_multisort(): Argument #3 is expected to be an array or a sort flag in E:\xampp\htdocs\sep2018\jobportal\admin\controller\job\job_submit_list.php on line 420
+2018-11-01 19:58:24 - PHP Notice:  Undefined variable: column_action in E:\xampp\htdocs\sep2018\jobportal\admin\view\template\job\job_submit_list_list.tpl on line 109
+2018-11-01 20:24:35 - PHP Notice:  Undefined index: employ_id in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\company\candidateprofile.php on line 70
+2018-11-01 20:26:19 - PHP Notice:  Undefined index: employ_id in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\company\candidateprofile.php on line 70
+2018-11-01 20:29:05 - PHP Notice:  Undefined index: employ_id in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\company\candidateprofile.php on line 70
+2018-11-01 21:28:03 - PHP Notice:  Undefined variable: tab_geal in E:\xampp\htdocs\sep2018\jobportal\catalog\view\theme\jobportal\template\company\submitjob.tpl on line 31
+2018-11-01 21:47:41 - PHP Notice:  Undefined variable: text_dats in E:\xampp\htdocs\sep2018\jobportal\catalog\view\theme\jobportal\template\company\submitjob.tpl on line 100
+2018-11-01 23:12:33 - PHP Notice:  Undefined variable: tab_data in E:\xampp\htdocs\sep2018\jobportal\catalog\view\theme\jobportal\template\company\submitjob.tpl on line 33
+2018-11-01 23:12:33 - PHP Notice:  Undefined variable: tab_design in E:\xampp\htdocs\sep2018\jobportal\catalog\view\theme\jobportal\template\company\submitjob.tpl on line 34
+2018-11-02 0:55:49 - PHP Notice:  Undefined index: name in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\company\editcompany.php on line 161
+2018-11-02 0:58:34 - PHP Notice:  Undefined index: name in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\company\editcompany.php on line 161
+2018-11-02 1:22:00 - PHP Notice:  Undefined variable: cat_name in E:\xampp\htdocs\sep2018\jobportal\catalog\view\theme\jobportal\template\company\register.tpl on line 169
+2018-11-02 1:22:05 - PHP Notice:  Undefined variable: cat_name in E:\xampp\htdocs\sep2018\jobportal\catalog\view\theme\jobportal\template\company\register.tpl on line 169
+2018-11-03 0:25:11 - PHP Notice:  Undefined variable: label_robots in E:\xampp\htdocs\sep2018\jobportal\admin\view\template\setting\setting.tpl on line 494
+2018-11-03 0:25:11 - PHP Notice:  Undefined variable: label_file_mime_allowed in E:\xampp\htdocs\sep2018\jobportal\admin\view\template\setting\setting.tpl on line 602
+2018-11-03 0:25:33 - PHP Notice:  Undefined variable: label_robots in E:\xampp\htdocs\sep2018\jobportal\admin\view\template\setting\setting.tpl on line 494
+2018-11-03 0:25:33 - PHP Notice:  Undefined variable: label_file_mime_allowed in E:\xampp\htdocs\sep2018\jobportal\admin\view\template\setting\setting.tpl on line 602
+2018-11-03 23:02:40 - PHP Notice:  Undefined index: banner in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\job\quick.php on line 130
+2018-11-03 23:03:03 - PHP Notice:  Undefined index: banner in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\job\quick.php on line 130
+2018-11-03 23:03:46 - PHP Notice:  Undefined index: banner in E:\xampp\htdocs\sep2018\jobportal\catalog\controller\job\quick.php on line 130
+2018-11-15 12:34:38 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-15 12:37:43 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-15 12:38:42 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-15 12:40:10 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-15 15:18:39 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-16 4:57:58 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-16 6:37:12 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-16 11:41:31 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-19 4:45:36 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 6:14:41 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 10:13:28 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 10:20:16 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 10:21:05 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 10:21:48 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 10:22:12 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 10:44:59 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 10:52:07 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:01:15 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:02:39 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:04:38 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:07:22 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:18:36 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:21:17 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:23:12 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:23:30 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:23:30 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:23:38 - PHP Warning:  filectime(): stat failed for image/catalog/demo/product/profile.png in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 13
+2018-11-21 11:24:09 - PHP Warning:  getimagesize(image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:40:41 - PHP Warning:  getimagesize(G:/PleskVhosts/oneteamjobs.com/httpdocs/image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:40:41 - PHP Warning:  getimagesize(G:/PleskVhosts/oneteamjobs.com/httpdocs/image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:40:56 - PHP Warning:  filectime(): stat failed for G:/PleskVhosts/oneteamjobs.com/httpdocs/image/catalog/demo/product/profile.png in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 13
+2018-11-21 11:43:27 - PHP Warning:  getimagesize(G:/PleskVhosts/oneteamjobs.com/httpdocs/image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:43:27 - PHP Warning:  getimagesize(G:/PleskVhosts/oneteamjobs.com/httpdocs/image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:43:39 - PHP Warning:  filectime(): stat failed for G:/PleskVhosts/oneteamjobs.com/httpdocs/image/catalog/demo/product/profile.png in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 13
+2018-11-21 11:43:56 - PHP Warning:  getimagesize(G:/PleskVhosts/oneteamjobs.com/httpdocs/image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:43:56 - PHP Warning:  getimagesize(G:/PleskVhosts/oneteamjobs.com/httpdocs/image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:44:12 - PHP Warning:  filectime(): stat failed for G:/PleskVhosts/oneteamjobs.com/httpdocs/image/catalog/demo/product/profile.png in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 13
+2018-11-21 11:46:41 - PHP Warning:  getimagesize(G:/PleskVhosts/oneteamjobs.com/httpdocs/image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:46:41 - PHP Warning:  getimagesize(G:/PleskVhosts/oneteamjobs.com/httpdocs/image/): failed to open stream: No such file or directory in G:\PleskVhosts\oneteamjobs.com\httpdocs\catalog\model\tool\image.php on line 14
+2018-11-21 11:47:39 - PHP Notice:  Undefined variable: label_robots in G:\PleskVhosts\oneteamjobs.com\httpdocs\admin\view\template\setting\setting.tpl on line 494
+2018-11-21 11:47:39 - PHP Notice:  Undefined variable: label_file_mime_allowed in G:\PleskVhosts\oneteamjobs.com\httpdocs\admin\view\template\setting\setting.tpl on line 602

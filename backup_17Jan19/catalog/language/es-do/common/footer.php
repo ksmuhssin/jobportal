@@ -1,0 +1,30 @@
+<?php
+// Text
+$_['text_information']  = 'Información';
+$_['text_service']      = 'Servicio al cliente';
+$_['text_extra']        = 'Extras';
+$_['text_contact']      = 'Contáctenos';
+$_['text_return']       = 'Devoluciones';
+$_['text_sitemap']      = 'Mapa del sitio';
+$_['text_manufacturer'] = 'Marcas';
+$_['text_voucher']      = 'Certificados de regalo';
+$_['text_affiliate']    = 'Afiliados';
+$_['text_special']      = 'Especiales';
+$_['text_account']      = 'Mi cuenta';
+$_['text_order']        = 'Historial de pedidos';
+$_['text_wishlist']     = 'Lista de deseos';
+$_['text_newsletter']   = 'Hoja informativa';
+$_['text_subscribe']    = 'Suscríbete Nuestro boletín';
+$_['text_emailenter']   = 'Ingrese su dirección de correo electrónico';
+$_['text_stayconnect']  = 'Mantente conectado con nosotros para nuestras últimas noticias y actualizaciones';
+$_['text_followus']     = 'Siga con nosotros';
+$_['button_subscribe']  = 'Suscribir';
+$_['text_needhelp']     = 'Necesitas ayuda ?';
+$_['text_callus']       = 'LLÁMENOS :';
+$_['text_useful']       = 'Enlaces útiles';
+$_['text_submitjob']    = 'Enviar trabajo';
+$_['text_allcan']       = 'Todos los candidatos';
+$_['text_latestblog']   = 'Últimos blogs';
+$_['text_jobs']         = 'Trabajos';
+$_['text_success']      = 'Exitosamente: envía tu correo';
+$_['text_powered']      = 'Energizado por <a href="http://themultimediadesigner.com/">TMD</a>%s &copy; %s';

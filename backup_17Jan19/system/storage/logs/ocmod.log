@@ -1,0 +1,3590 @@
+2018-02-13 8:25:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-21 21:38:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-21 21:46:10 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-21 21:46:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-21 21:46:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-21 21:46:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-21 21:46:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-21 22:58:24 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-21 22:58:26 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-21 22:58:29 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 101
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 93
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-02-27 6:14:50 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 248
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 102
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: Tmd Mega Header
+CODE: $data['cart'] = $this->load->controller('common/cart');
+LINE: 142
+CODE: <?php if ($categories) { ?>
+LINE: 94
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+LINE: 5
+CODE: </head>
+LINE: 52
+CODE: <?php if ($categories) { ?>
+LINE: 122
+CODE: <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: // Text
+LINE: 7
+CODE: // Extension
+LINE: 271
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 465
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-03-19 18:16:50 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 270
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 102
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 464
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-03-19 18:16:53 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Blog Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 5
+
+FILE: admin/controller/common/column_left.php
+CODE: // Extension
+LINE: 270
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 8
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: </form>
+LINE: 422
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 481
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 493
+
+FILE: catalog/controller/common/header.php
+CODE: $data['home'] = $this->url->link('common/home');
+LINE: 78
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 71
+CODE: } elseif ($key == 'path') {
+LINE: 104
+
+FILE: catalog/language/en-gb/en-gb.php
+CODE: // Locale
+LINE: 6
+
+FILE: catalog/controller/common/home.php
+CODE: $data['column_right'] = $this->load->controller('common/column_right');
+LINE: 20
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 102
+
+FILE: catalog/view/theme/jobportal/template/common/header.tpl
+CODE: <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+LINE: 34
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 129
+----------------------------------------------------------------
+MOD: TMD Testimonial Module
+CODE: // Text
+LINE: 6
+CODE: // Customer
+LINE: 464
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']          = 'Home';
+LINE: 3
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 91
+CODE: $data['text_home'] = $this->language->get('text_home');
+LINE: 50
+----------------------------------------------------------------
+2018-03-19 18:24:59 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-19 18:39:58 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-19 19:39:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-20 18:34:00 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-29 22:45:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-29 22:45:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-29 22:53:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-29 23:11:44 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-29 23:16:07 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-29 23:18:39 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-29 23:20:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-03-30 20:41:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-04 1:28:12 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-09 21:20:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:07:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:07:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:07:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:07:34 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:07:38 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:08:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:08:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:08:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:08:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:08:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-04-30 20:08:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-05-01 2:34:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-05-01 2:34:17 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-05-01 2:34:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-05-01 2:34:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-05-01 2:34:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-05-01 2:34:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-05-01 3:11:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-06-29 21:24:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-07-04 2:08:39 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-07-04 2:08:41 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-07-04 21:39:11 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-07-04 21:39:12 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-07-04 21:39:12 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-07-04 21:39:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-10 21:23:56 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-14 9:30:44 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-14 9:30:46 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-16 14:05:08 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-16 14:05:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-16 14:05:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-16 14:06:39 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-16 14:07:20 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-16 14:07:39 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-16 14:09:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-08-16 14:22:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:42:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:42:41 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:42:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:42:46 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:59:21 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:59:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:59:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:59:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:59:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+2018-09-12 20:59:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
